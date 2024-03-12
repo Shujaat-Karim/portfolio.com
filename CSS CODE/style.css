@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#profileAndImg{
+    width: 50vw;
+    height: 30vh;
+    /* background-color: aqua; */
+    padding-top: 30px;
+    margin: 0 auto;
+    column-gap: 40px;
+
+}
+#profileAndImg img{
+    height: 30vh;
+    border-radius: 3px;
+    float: right;
+}
+
+#profileAndImg{
+    display: flex;
+}
+
+.container{
+    width:80vw;
+    margin: 0 auto;
+    
+}
+
+#parent{
+    display: flex;
+    width: 90%;
+    /* background-color: aquamarine; */
+    justify-content: space-around;
+}
+
+h1{
+    margin: 20px 0 5px 0;
+    color: rgb(0, 0, 0);
+}
+
+.listStyle h3{
+    text-decoration: none;
+} 
+
+.edu{
+    text-decoration: underline;
+    margin: 10px 0;
+    
+}
+
+.skillsSk{
+    margin-left: 20px;
+
+}
+#experi p{
+line-height: 20px;
+}
+.skillsSk li{
+    line-height: 20px;
+}
+#coursesAttends a{
+text-decoration: none;
+color: blue;
+line-height: 20px;
+}
+#address{
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+
+#address a{
+    text-decoration: none;
+
+}
